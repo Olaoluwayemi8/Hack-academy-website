@@ -26,12 +26,18 @@ a:hover{
     color: black;
 }
 
-button{
+button.home{
     background: #47B475;
     color: white;
-    width: 100px;
+    width: 200px;
     height: 30px;
     text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#btn {
+    padding-top: 30px;
 }
 
 #range {
@@ -110,6 +116,8 @@ nav{
     padding-right: 0px;
 }
 
+
+
 nav img{
     size: 100px;
     width: 200px;
@@ -134,24 +142,117 @@ nav img{
     padding-top: 10px;
 }
 
-section{
+.one {
     display: flex;
     background: #f8f8f8;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
-section #laptop{
+.one #laptop{
 padding-top: 150px;
 /* font-size: 35px; */
 font-family: Arial, Helvetica, sans-serif;
 }
 
-#laptop button {
-    padding-top: 0px;
-    height: 80px;
-    width: 160px;
+#btn2 {
+    padding-top: 30px;
+    padding-left: 100px;
 }
 
-section #btn {
+.cash {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    background: #fff;
+    text-transform: uppercase;  
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.two #lappy{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+}
+
+#lappy h5{
+    text-justify: inter-word;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    
+}
+
+#lappy h6 {
+    text-justify: inter-word;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+#lappy #koko {
     padding-top: 40px;
+}
+
+.two #sars {
+    padding-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #47B475;
+    width: 400px;
+}
+
+#sars h4 {
+padding-left: 100px;
+text-transform: uppercase;
+padding-bottom: 20px;
+font-size: 20px;
+color: #fff;
+font-weight: lighter;
+}
+
+#sars h1 {
+    padding-left: 85px;
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 120px;
+    font-weight: lighter;
+}
+
+#sars p {
+    color: #fff;
+    padding-left: 150px;
+}
+
+#btn3 {
+ padding-left: 100px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+    
+}
+
+.owo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    background: #47B475;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+#sars h6 {
+    text-justify: inter-word;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
 }
